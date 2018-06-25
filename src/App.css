@@ -1,0 +1,30 @@
+.container{
+  padding: 2em;
+}
+
+input{
+  border: 0;
+  outline: 0;
+  color: #333;
+  padding: 1em;
+  transition: all ease .2s;
+  width: 80%;
+  box-shadow: 0px 0px 5px rgba(51,51,51,.2);
+}
+
+input:hover{
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 6px rgba(51,51,51,.3);
+}
+
+input:focus{
+  border: 1px solid #333;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color:green;
+}
