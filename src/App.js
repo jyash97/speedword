@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("http://www.randomtext.me/api/")
+    fetch("https://www.randomtext.me/api/")
       .then(raw => raw.json())
       .then(data => {
         const text = data.text_out.split("<p>")
